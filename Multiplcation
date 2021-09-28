@@ -1,0 +1,20 @@
+package multiplication;
+import java.util.*;
+
+public class Multiplication {
+
+    public static void main(String[] args) {
+        System.out.println("Enter the value for which the multiplication to be generated");
+        Scanner sc=new Scanner(System.in);
+        int num=sc.nextInt();
+        System.out.println("Multiplication of " +num);
+        int a=1;
+        for(int i=1;i<=10;i++)
+        {
+            int ans=num*i;
+            System.out.println(+num +"*" +i +"=" +ans);
+        }
+          
+    }
+    
+}
