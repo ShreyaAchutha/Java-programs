@@ -1,0 +1,14 @@
+package meeee;
+
+import java.util.*;
+public class Meeee {
+
+    
+    public static void main(String[] args) {
+        System.out.print("Enter the value of i:");
+        Scanner scan=new Scanner(System.in);
+        int i=scan.nextInt();
+        System.out.println("The value of i is:"+i);
+    }
+    
+}
